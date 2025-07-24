@@ -1,0 +1,110 @@
+[x] particle system
+[x] crafting
+[x] ores
+[x] shovels
+[x] dust particles in caves
+[x] zombies
+[x] entity ai
+[x] monster spawning
+[x] swimming sprites
+[x] losing energy and health in water
+[x] reset game fully on death (new world, etc.)
+[x] knockback
+[x] crafting gui that shows required resources
+[x] some block for bridging on lava
+[x] underworld redesign
+[x] boss
+[x] wood planks
+[x] respawn bug (duplicate player)
+[x] portal to wasteland instead of stairs
+[x] structures
+[x] give players an incentive to build a base
+[x] better menus
+[x] more menus
+[x] armor and other defense
+[x] better particle system (images, random velocity, etc.)
+[x] loot chests
+[] command / cheat system
+
+BIG STUFF (make backup of game)
+[] multiplayer
+[x] world saving
+
+== LOG ==
+
+- 5/20/25
+added shovels
+added iron ore
+added iron
+added iron pick and shovel
+added zombies
+
+- 5/21/25
+track meet! 2:56.43 in 800 beat PR by 0.51
+note from later me: better time 2:48 in 800
+monster spawning
+death screen
+added swords
+
+- 5/22/25
+fixed splash text note: when a new splash is added MenuScreen.splashn has to go up
+improved monster spawning
+
+- 5/23/25
+improved game reset (generates new world)
+improved spawn conditions (monsters and players can't spawn in a solid block or water)
+added swimming
+
+- 5/24/25
+improved swimming (slower speed, energy + hp depletes)
+fixed bug: empty health + energy slot renders one pixel below full ones
+added recipe for wood swords
+added rock and iron swords
+added recipe for rock and iron swords
+added skeletons
+removed POW GLOVE; added KNIFE in place
+improved ItemTypePick (can attack too)
+removed skeletons
+added THE NETHER
+added netherrack
+added blackstone
+added lava
+
+- 5/25/25
+all the fives!!!
+added bedrock
+added woodplanks
+
+- 6/7/25 
+added goofy ahh trees in the nether
+renamed the nether -> the underworld
+added particles in the underworld
+added wood plank walls
+
+- 6/8/25
+did some stuff
+added radioactive spiders in the underworld
+added dust particles in caves
+ported project to intellij
+
+- 6/9/25
+finished world saving
+added light level
+added torches
+automatic file saving
+
+- 6/10/25
+removed light level
+
+- 6/12/25
+fixed world loading
+
+- 6/23/25
+improved splash text code
+removed MenuScreen.splashn
+
+- 6/24/25
+didnt do anything i guess
+
+- 6/27/25
+added projectiles
